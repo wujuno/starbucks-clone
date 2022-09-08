@@ -1,11 +1,9 @@
 .nav {
     background-color: white;
-    color: var(--gray);
-    opacity: 0.7;
+    color: var(--gray);   
     position: fixed;
     bottom: 0px;
-    width: 100%;
-    
+    width: 100%;    
     
     box-sizing: border-box;
     padding: 0px 30px;

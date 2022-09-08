@@ -6,6 +6,10 @@
 /* components */
 @import "components/status-bar.css";
 @import "components/nav.css";
+@import "components/screen-header.css";
+
+/* screens */
+@import "screens/home.css";
 
 body {
     font-family: 'Noto Sans KR', sans-serif;

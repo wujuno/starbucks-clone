@@ -1,0 +1,62 @@
+.main-screen {
+    margin: 0px 10px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.greeting-card {
+    width: 450px;
+    height: 240px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    padding: 40px 32px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.greeting-card__column:first-child {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 18px;   
+}
+.greeting-card__column:first-child span {
+    margin-bottom: 7px;
+}
+.greeting-card__column:nth-child(2){
+    margin-top: 37px;
+}
+.greeting-card__signup {
+    padding: 7px 20px;
+    background-color: #01a862;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+}
+.greeting-card__login {
+    padding: 7px 20px;
+    border: 1px solid #01a862;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #01a862;
+}
+.greeting-card__img{
+   position: absolute;
+   right: 50px;
+   bottom: 72px;
+}
+.greeting-card__img img{
+    width: 100px;
+    height: 100px;
+   
+}
+
+
+.nav__button:first-child {
+
+    color: #01a862;
+}
