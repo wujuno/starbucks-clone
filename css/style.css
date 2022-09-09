@@ -7,9 +7,11 @@
 @import "components/status-bar.css";
 @import "components/nav.css";
 @import "components/screen-header.css";
+@import "components/main-screen.css";
 
 /* screens */
 @import "screens/home.css";
+@import "screens/pay.css";
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
