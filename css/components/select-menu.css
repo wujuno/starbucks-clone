@@ -1,0 +1,23 @@
+.select-menu {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+.select-menu__column{
+    width: 33.3%;
+    text-align: center;
+    padding: 17px 0px;
+}
+
+.select-menu__title__hallcake  {
+    color: #01a862;  
+    font-weight: 300;
+}
+.select-menu__title__hallcake>i {
+    margin-right: 6px;
+}

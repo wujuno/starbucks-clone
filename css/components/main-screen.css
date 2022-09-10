@@ -6,3 +6,8 @@
     align-items: center;
 
 }
+.order-main-screen{
+    display: flex;
+    margin: 0px 35px;
+    margin-top: 40px;
+}

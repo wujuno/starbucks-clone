@@ -8,10 +8,14 @@
 @import "components/nav.css";
 @import "components/screen-header.css";
 @import "components/main-screen.css";
+@import "components/select-menu.css";
+@import "components/menu-whatkind.css";
+@import "components/order-list.css";
 
 /* screens */
 @import "screens/home.css";
 @import "screens/pay.css";
+@import "screens/order-beverage.css";
 
 body {
     font-family: 'Noto Sans KR', sans-serif;

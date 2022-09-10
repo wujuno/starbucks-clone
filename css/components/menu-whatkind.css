@@ -1,0 +1,29 @@
+.menu-whatkind {
+    width: 100%;
+    padding: 22px 50px;
+    display: flex;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.menu-whatkind__column {
+    display: flex;
+    font-size: 17px;
+     
+}
+.menu-whatkind__column:first-child {
+    margin-right: 15px;
+}
+.menu-whatkind__column:nth-child(2) {
+    margin-right: 15px;
+}
+.menu-whatkind__greentitle {
+    font-size: 8px;
+    margin-left: 3px;
+    padding-top: 2px;
+    font-style: italic;
+    color: #01a862; 
+}
+.menu-whatkind__focus {
+    color: rgba(0, 0, 0, 0.6);
+}
