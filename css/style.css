@@ -18,6 +18,7 @@
 @import "screens/pay.css";
 @import "screens/order-mymenu.css";
 @import "screens/gift.css";
+@import "screens/other.css";
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
