@@ -11,3 +11,10 @@
     margin: 0px 35px;
     margin-top: 40px;
 }
+.order-mymenu-screen {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0px 40px;
+    margin-top: 50px;
+}

@@ -11,11 +11,13 @@
 @import "components/select-menu.css";
 @import "components/menu-whatkind.css";
 @import "components/order-list.css";
+@import "components/order-store.css";
 
 /* screens */
 @import "screens/home.css";
 @import "screens/pay.css";
-@import "screens/order-beverage.css";
+@import "screens/order-mymenu.css";
+@import "screens/gift.css";
 
 body {
     font-family: 'Noto Sans KR', sans-serif;

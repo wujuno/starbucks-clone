@@ -1,0 +1,34 @@
+.order-mymenu__title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.order-mymenu__title>span {
+    margin-bottom: 10px;
+}
+.order-mymenu__loginbox{
+    padding: 10px 0px;
+}
+.order-mymenu__login {
+    padding: 7px 20px;
+    background-color: #01a862;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;    
+}
+.order-mymenu__signup {
+    padding: 7px 20px;
+    border: 1px solid #01a862;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #01a862;
+    margin-right: 10px;
+}
+.order-mymenu__img img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 30px;
+    top: 150px;
+}

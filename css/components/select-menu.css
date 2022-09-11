@@ -8,8 +8,11 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 18px;
 }
-.select-menu__column{
+.select-menu a {
     width: 33.3%;
+}
+.select-menu__column{
+    
     text-align: center;
     padding: 17px 0px;
 }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="titleJoin">Order-beverage</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__time">11:52</span>
+        <span class="status-bar__day">8</span>
+      </div>
+      <div class="status-bar__column">
+        <span><i class="fa-solid fa-volume-xmark"></i></span>
+        <span><i class="fa-solid fa-wifi"></i></span>
+        <span><i class="fa-solid fa-signal"></i></span>
+        <span>75%</span>
+        <span><i class="fa-solid fa-battery-three-quarters"></i></span>
+      </div>
+    </div>
+    <header class="main-header">
+      <div class="main-header__search">
+        <a href="#"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+      </div>
+      <div class="main-header__title">
+        <h1>Order</h1>
+      </div>
+    </header>
+    <div class="select-menu">
+      <a href="order-beverage.html"
+        ><div class="select-menu__column">
+          <span class="select-menu__title__all">전체 메뉴</span>
+        </div></a
+      >
+      <a href="order-mymenu.html"
+        ><div class="select-menu__column">
+          <span class="select-menu__title__my">나만의 메뉴</span>
+        </div></a
+      >
+      <a href="order-hallcake.html"
+        ><div class="select-menu__column">
+          <span class="select-menu__title__hallcake"
+            ><i class="fa-solid fa-cake-candles"></i
+            ><span>홀케이크 예약</span></span
+          >
+        </div></a
+      >
+    </div>
+
+    <main class="order-mymenu-screen">
+      <div class="order-mymenu__title">
+        <span>나만의 메뉴 서비스는 로그인 후에</span>
+        <span>이용하실 수 있습니다.</span>
+      </div>
+      <div class="order-mymenu__loginbox">
+        <span class="order-mymenu__signup">회원가입</span>
+        <span class="order-mymenu__login">로그인</span>
+      </div>
+      <div class="order-mymenu__img">
+        <img src="icon/mymenu.png" />
+      </div>
+    </main>
+    <div class="order-store">
+      <div class="order-store__column">
+        <div class="order-store__select">
+          <span>주문할 매장을 선택해 주세요</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+      <div class="order-store__column">
+        <i class="fa-solid fa-bag-shopping fa-2x"></i>
+        <div class="notification"><span>0</span></div>
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__button">
+          <a class="nav__link" href="home.html"
+            ><i class="fa-solid fa-house-chimney fa-xl"></i><span>Home</span>
+            <div class="nav__click-effect"></div
+          ></a>
+        </li>
+        <li class="nav__button">
+          <a class="nav__link" href="pay.html"
+            ><i class="fa-solid fa-credit-card fa-xl"></i><span>Pay</span>
+            <div class="nav__click-effect"></div
+          ></a>
+        </li>
+        <li class="nav__button__green">
+          <a class="nav__link" href="order-beverage.html"
+            ><i class="fa-solid fa-mug-saucer fa-xl"></i><span>Order</span>
+            <div class="nav__click-effect"></div
+          ></a>
+        </li>
+        <li class="nav__button">
+          <a class="nav__link" href="gift.html"
+            ><i class="fa-solid fa-gift fa-xl"></i><span>Gift</span>
+            <div class="nav__click-effect"></div
+          ></a>
+        </li>
+        <li class="nav__button">
+          <a class="nav__link" href="other.html"
+            ><i class="fa-solid fa-ellipsis fa-xl"></i><span>Other</span>
+            <div class="nav__click-effect"></div
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/a4cb514418.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
