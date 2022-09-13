@@ -3,7 +3,7 @@
 }
 .main-header__search {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 40px;
     height: 35px;
     display: flex;
     justify-content: flex-end;
@@ -12,9 +12,9 @@
 }
 .main-header__title {
     font-weight: 700;
-    font-size: 40px;
-    padding-top: 35px;
+    font-size: 35px;
+    padding-top: 25px;
 }
-.main-header__title h1:last-child {
+#main-header__title2 {
     margin-top: 15px;
 }
