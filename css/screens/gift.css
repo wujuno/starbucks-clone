@@ -14,6 +14,7 @@
 }
 .gift-box__column:first-child {
     font-size: 23px;
+    font-weight: 700;
 }
 .gift-box__column:first-child .fa-chevron-right {
 margin-left: 15px;
@@ -22,7 +23,8 @@ margin-left: 15px;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    font-weight: 300;
+    font-weight: 400;
+    opacity: 0.9;
 }
 .gift-box__column:nth-child(2) span {
     margin-bottom: 8px;

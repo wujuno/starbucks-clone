@@ -54,11 +54,13 @@
 .card-register__title:first-child span {
     font-size: 22px;
     color: rgba(0, 0, 0, 0.9);
+    font-weight: 500;
 }
 .card-register__title:last-child span {
     font-size: 18px;
-    color: rgba(0, 0, 0, 0.4);
-    margin-bottom: 7px;   
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 7px;
+    font-weight: 400;   
 }
 
 .pay-ad {

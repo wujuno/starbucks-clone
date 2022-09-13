@@ -9,6 +9,7 @@
 .menu-whatkind__column {
     display: flex;
     font-size: 17px;
+    font-weight: 500;
      
 }
 .menu-whatkind__column:first-child {
@@ -17,13 +18,26 @@
 .menu-whatkind__column:nth-child(2) {
     margin-right: 15px;
 }
+.menu-whatkind__unfocus {
+    color: rgba(0, 0, 0, 0.6);
+}
 .menu-whatkind__greentitle {
     font-size: 8px;
     margin-left: 3px;
     padding-top: 2px;
     font-style: italic;
     color: #01a862; 
+    animation: Bouncetext 1s ease-in-out infinite;
 }
-.menu-whatkind__focus {
-    color: rgba(0, 0, 0, 0.6);
+@keyframes Bouncetext {
+    0%{
+        transform: none;
+
+    }
+    50%{
+        transform: translateY(-4px);
+    }
+    100%{
+        transform: none;
+    }
 }

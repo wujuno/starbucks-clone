@@ -29,19 +29,3 @@
 .order-store__select span {
     margin-right: 70px;  
 }
-/* animation 삽입*/
-.order-store__column:last-child .notification {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 12px;
-    right: 5px;
-
-    width: 18px;
-    height: 18px;
-    background-color: #01a862;
-    color: white;
-    font-size: 12px;
-    border-radius: 50%;
-}

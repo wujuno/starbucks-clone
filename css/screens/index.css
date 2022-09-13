@@ -1,0 +1,135 @@
+.hellow-plzlogin {
+    margin: 30px 10px;
+}
+.hellow-plzlogin img {
+    width: 70px;
+    height: 70px;
+    padding: 20px 0px;
+}
+.hellow-plzlogin p:nth-child(2),
+.hellow-plzlogin p:nth-child(3) {
+    font-size: 23px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.hellow-plzlogin p:nth-child(4) {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+}
+.index-loginform {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.find-id__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.division__bar {
+    width: 1px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0px 10px;
+}
+.index-loginform input:not([type="submit"]) {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 25px;
+    font-size: 17px;
+    
+}
+.index-loginform input:focus {
+    border-color: #01a862;
+    
+}
+.index-loginform__submit {
+    display: flex;    
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.2);
+    transform: translateX(-20px);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.index-loginform__submit input {
+    border: none;
+    background-color: #01a862;
+    border-radius: 20px;
+    padding: 0px 120px;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;    
+}
+@keyframes hideSplashScreen1 {
+    from{
+        opacity: 1;
+    }
+   
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+#SplashScreen1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01a862;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    animation: hideSplashScreen1 1s ease-out forwards ;
+    animation-delay: 2s;
+    z-index: 97;   
+}
+#SplashScreen1 img{
+    width: 150px;
+    height: 150px;
+}
+@keyframes hideSplashScreen2 {
+    0%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+   
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+#SplashScreen2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    animation: hideSplashScreen2 1s ease-out forwards ;
+    z-index: 98;
+    
+
+}
+#SplashScreen2 img{
+    width: 100px;
+    height: 100px;
+}

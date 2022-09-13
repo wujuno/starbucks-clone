@@ -21,40 +21,57 @@
         <span><i class="fa-solid fa-battery-three-quarters"></i></span>
       </div>
     </div>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__button">
-          <a class="nav__link" href="home.html"
-            ><i class="fa-solid fa-house-chimney fa-xl"></i><span>Home</span>
-            <div class="nav__click-effect"></div
-          ></a>
-        </li>
-        <li class="nav__button">
-          <a class="nav__link" href="pay.html"
-            ><i class="fa-solid fa-credit-card fa-xl"></i><span>Pay</span>
-            <div class="nav__click-effect"></div
-          ></a>
-        </li>
-        <li class="nav__button">
-          <a class="nav__link" href="order-beverage.html"
-            ><i class="fa-solid fa-mug-saucer fa-xl"></i><span>Order</span>
-            <div class="nav__click-effect"></div
-          ></a>
-        </li>
-        <li class="nav__button">
-          <a class="nav__link" href="gift.html"
-            ><i class="fa-solid fa-gift fa-xl"></i><span>Gift</span>
-            <div class="nav__click-effect"></div
-          ></a>
-        </li>
-        <li class="nav__button">
-          <a class="nav__link" href="other.html"
-            ><i class="fa-solid fa-ellipsis fa-xl"></i><span>Other</span>
-            <div class="nav__click-effect"></div
-          ></a>
-        </li>
-      </ul>
-    </nav>
+    <header class="main-header">
+      <div class="main-header__search"></div>
+      <div class="main-header__title">
+        <h1>로그인</h1>
+      </div>
+    </header>
+    <main class="index-main-screen">
+      <div class="hellow-plzlogin">
+        <img src="icon/starbucks.png" />
+        <p>안녕하세요.</p>
+        <p>스타벅스입니다.</p>
+        <p>회원 서비스 이용을 위해 로그인 해주세요.</p>
+      </div>
+    </main>
+    <form class="index-loginform" action="home.html" method="get">
+      <input
+        required
+        id="username"
+        name="username"
+        type="text"
+        placeholder="아이디"
+      />
+
+      <input
+        required
+        id="password"
+        name="password"
+        type="password"
+        placeholder="비밀번호"
+      />
+      <div class="index-loginform__submit">
+        <input type="submit" value="로그인 하기" />
+      </div>
+      <div class="find-id__box">
+        <a href="#">아이디 찾기</a>
+        <div class="division__bar"></div>
+        <a href="#">비밀번호 찾기</a>
+        <div class="division__bar"></div>
+        <a href="#">회원가입</a>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+    <div id="SplashScreen1">
+      <img src="icon/starbucks.png" />
+    </div>
+    <div id="SplashScreen2">
+      <img src="icon/starbucks.png" />
+    </div>
+
     <script
       src="https://kit.fontawesome.com/a4cb514418.js"
       crossorigin="anonymous"

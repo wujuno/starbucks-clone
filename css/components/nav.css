@@ -35,7 +35,8 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    bottom: 20px;    
+    bottom: 20px;
+      
   
 }
 .nav__button__green {
@@ -55,6 +56,7 @@
 }
 .nav__link:first-child:hover .nav__click-effect:first-child {
     animation: multiplescaleCircle 0.4s ease-in forwards;
+    
 }
 .nav__link:nth-child(2) :hover .nav__click-effect:nth-child(2) {
     animation: multiplescaleCircle 0.4s ease-in forwards;
