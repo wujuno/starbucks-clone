@@ -5,7 +5,7 @@
     box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
     box-sizing: border-box;
-    padding: 40px 32px;
+    padding: 40px 25px;
     padding-bottom: 0px;
     display: flex;
     flex-direction: column;
@@ -24,28 +24,28 @@
     margin-top: 37px;
 }
 .greeting-card__signup {
-    padding: 7px 20px;
+    padding: 5px 15px;
     background-color: #01a862;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     margin-right: 10px;
 }
 .greeting-card__login {
-    padding: 7px 20px;
+    padding: 5px 15px;
     border: 1px solid #01a862;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 16px;
     color: #01a862;
 }
 .greeting-card__img{
    position: absolute;
-   right: 50px;
-   bottom: 72px;
+   right: 35px;
+   bottom: 80px;
 }
 .greeting-card__img img{
-    width: 100px;
-    height: 100px;   
+    width: 80px;
+    height: 80px;   
 }
 .whatsnew-card {
     margin-top: 7px;
@@ -94,13 +94,14 @@
     height: 60px;
 }
 .recall-card__title {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .recall-card span {
     font-weight: 700;  
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.8);    
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    
 }
 
 .golden-card {
@@ -120,8 +121,9 @@
     flex-direction: column;
 }
 .golden-card__column:last-child img{
-    width: 120px;
-    height: 120px;    
+    margin-top: 10px;
+    width: 95px;
+    height: 95px;    
 }
 .golden-card__title:first-child{
     color: white;
@@ -130,7 +132,7 @@
 .golden-card__title:nth-child(2){
     margin-top: 15px;
     color: #d7cc7a;
-    font-size: 26px;
+    font-size: 20px;
 
     display: flex;
     flex-direction: column;
@@ -168,7 +170,7 @@
 }
 
 .fall-beverage__title:nth-child(2){
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 30px;
     display: flex;
@@ -214,7 +216,7 @@
 .delivery-card__title {
     display: flex;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
     padding: 40px 30px;
 }
@@ -223,15 +225,15 @@
 }
 .delivery-card__date {
     padding: 15px 30px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
 
 }
 .delivery-card__img img {
     position: absolute;
-    width: 150px;
-    height: 150px;
-    right: 40px;
+    width: 120px;
+    height: 120px;
+    right: 30px;
     top: -100px;
 }
 

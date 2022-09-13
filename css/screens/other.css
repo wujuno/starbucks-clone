@@ -4,7 +4,7 @@
 .other-header__title {
     font-weight: 700;
     font-size: 35px;
-    padding-top: 25px;
+    padding-top: 20px;
    
 }
 .other-main-screen {
@@ -41,7 +41,7 @@
     font-weight: 500;
 }
 .other__login-box__title2 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: #4e2f16;
     text-decoration-line: underline;
@@ -52,13 +52,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    width: 87px;
+    height: 85px;
     border-radius: 12px;
     box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.2);
 }
 .other-point-menu .list__box span {
     font-weight: 500;
+    font-size: 15px;
 }
 .other-point-menu .list__box i {
     margin-bottom: 10px;
@@ -110,6 +111,7 @@
 }
 .sub-menu__column span {
     margin-left: 15px;
+    font-size: 15px;
 }
 .sub-menu__pay .fa-circle-plus{
     position: absolute;

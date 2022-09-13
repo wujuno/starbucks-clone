@@ -1,5 +1,6 @@
 .menu-whatkind {
     width: 100%;
+    box-sizing: border-box;
     padding: 22px 50px;
     display: flex;
     background-color: #f8f8f8;

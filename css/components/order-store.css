@@ -23,8 +23,9 @@
 }
 
 .order-store__column:last-child {
-    margin-right: 20px;
+    margin-right: 10px;
     position: relative;
+    
 }
 .order-store__select span {
     margin-right: 70px;  
