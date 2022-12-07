@@ -1,6 +1,8 @@
 ## Starbucks mobile-app clone
 
-<img src=forREADME.png>
+<p align='center'>
+<img src=forREADME.png width=200px, height=400px>
+</p>
 
 ### 구현 내용
 
