@@ -9,6 +9,8 @@
     <img src="https://img.shields.io/badge/Css3-1572B6?style=flat-square&logo=Css3&logoColor=white"/>
 </p>
 
+Deployment &rarr; https://wujuno.github.io/starbucks-clone/
+
 ### 배운 내용
 
 - **flex** 키워드 관련 숙달
